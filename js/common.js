@@ -25,12 +25,12 @@ head.ready(function() {
 //        });
 //    });
     //$('.parallax').css('background-position', 'center ' + (($('.parallax').offset().top - $(window).scrollTop()) * 0.1) + 'px');
-    $(window).stellar({
-        horizontalScrolling: false
-       ,
-        verticalOffset: 40
-
-    });
+//    $(window).stellar({
+//        horizontalScrolling: false
+//       ,
+//        verticalOffset: 40
+//
+//    });
 
     $('#frm-first form').validate();
     $('#frm-second form').validate();

@@ -40,12 +40,6 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .frm h5 { margin: 0; font-size: 24px; }
 .frm h5 span { font-family: "conv_pfdintextcondpro-regular"; }
 
-.prev { position: absolute; content: ""; top: 44%; left: -52px; background: black; width: 40px; height: 40px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; padding-left: 13px; padding-top: 11px; box-sizing: border-box; cursor: pointer; z-index: 1; }
-.prev:hover { background: #f61818; }
-
-.next { position: absolute; content: ""; top: 44%; right: -33px; background: rgba(0, 0, 0, 0.8); width: 40px; height: 40px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; padding-left: 15px; padding-top: 11px; box-sizing: border-box; cursor: pointer; z-index: 1; }
-.next:hover { background: rgba(246, 24, 24, 0.8); }
-
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
@@ -209,6 +203,6 @@ header .header__main--main .header__left .discount span, .scrollMenu .header__ma
 .bottom .header__main--main .girl { top: 41px; left: 425px; -moz-transform: scaleX(-1); -ms-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); }
 
 footer { box-sizing: border-box; height: 90px; text-align: center; padding-top: 15px; }
-footer p { font-size: 16px; }
+footer p { font-size: 16px; color: #787878; }
 footer p a { color: #be0a0a; }
 footer p a:hover { text-decoration: none; }
